@@ -165,7 +165,47 @@ O projeto foi desenvolvido utilizando um conjunto de dados público disponibiliz
 
 O desenvolvimento deste projeto se baseou na metodologia CRISP-DM. 
 
+<img src="https://github.com/adriana-takahagui/mba-machine-learning/blob/main/images/CRISP-DM.png" width="500" height="500">
 
+Imagem que ilustra a estrutura da metodologia CRISP-DM[^1].
+
+A metodologia CRISP-DM é dividida em 6 etapas fundamentais:
+1. Entendimento do negócio
+2. Entendimento dos dados
+3. Preparação dos dados
+4. Modelagem
+5. Avaliação
+6. Implementação 
+
+**1. Entendimento do negócio**:
+
+- O negócio da Olist é baseado na interação entre o consumidor, o marketplace da Olist e o vendedor.
+- A princípio, o pedido é realizado pelo consumidor no site da Olist. Este pedido é recebido pelo marketplace da Olist. Com base nas informações do pedido (como categoria do produto, geolocalização, forma de pagamento etc.), uma notificação é encaminhada aos vendedores.
+- Após isso, o produto é recebido do vendedor e entregue ao consumidor dentro do prazo estimado de entrega.
+- Assim que o cliente recebe o produto, ou caso o prazo estimado de entrega tenha vencido, o consumidor recebe por e-mail uma pesquisa de satisfação onde pode avaliar com uma nota de 1 a 5 o quanto recomendaria a experiência de compra a alguém.
+
+**2. Entendimento dos dados**:
+
+- Os dados foram disponibilizados pela Olist no Kaggle, portanto toda a parte de estruturação das tabelas já foi realizada. Coube uma exploração dos dados para entender e preparar os dados para análise e para criação do Modelo de Machine Learning.
+
+**3. Preparação dos dados**:
+
+- A primeira etapa na preparação dos dados foi realizar uma união de todas as tabelas em uma única tabela para facilitar a análise e para criação do modelo de Machine Learning.  
+- Além disso, esta etapa é baseada em tarefas de pré-processamento de dados, como limpeza, transformação e engenharia de variáveis. Isso envolveu tratamento de valores faltantes, codificação de variáveis categóricas, normalização das variáveis numéricas e divisão dos dados em conjuntos de treino e teste. 
+- Portanto, são atividades para criar um conjunto de dados pronto para a modelagem.
+
+**4. Modelagem**:
+
+- Para esta etapa, escolheu-se o modelo de Regressão Logística por permitir a interpretação dos pesos de cada variável preditora em relação à variável resposta e entender como as variáveis influenciam a satisfação ou não do cliente. 
+
+**5. Avaliação**:
+
+- A princípio, a avaliação do modelo foi feita através da acurácia, curva ROC AUC e matriz de confusão. Outras métricas deveram ser utilizadas para avaliar o modelo. 
+
+**6. Implementação**:
+
+- Uma vez que o modelo esteja criado, foi avaliado para dados que nunca tinha visto antes e teve bons resultados em relação às métricas de avaliação, ele poderá ser implementado para ser utilizado no dia a dia do negócio, ou na frequência em que for pertinente. 
+- Como ele é um modelo para auxiliar no entendimento das variáveis e seus pesos na satisfação do cliente ou não, no caso, o modelo foi criado para entender os detratores, o modelo poderá ser utilizado alternando-se com as ações implementadas para verificar a eficácia tanto das ações quanto do modelo criado. 
 
 ---
 
