@@ -66,7 +66,7 @@ Esta seção aborda a descrição do problema de negócio escolhido para desenvo
   - **olist_order_reviews_dataset.csv**: dados com avaliações dadas pelos consumidores em relação ao seu pedido
 - Além desses dados, também foi utilizada uma **tabela de regiões e estados do Brasil**.
 
-**Link do Notebook**: https://github.com/adriana-takahagui/mba-machine-learning/blob/main/Customer_Satisfaction_Prediction_Ecommerce.ipynb
+**Link do Notebook**: [clique aqui](https://github.com/adriana-takahagui/mba-machine-learning/blob/main/Customer_Satisfaction_Prediction_Ecommerce.ipynb)
 - **OBS**: Para visualizar os gráficos gerados pelo Sweetviz, tente abrir pelo link do Colab clicando [aqui](https://colab.research.google.com/github/adriana-takahagui/mba-machine-learning/blob/main/Customer_Satisfaction_Prediction_Ecommerce.ipynb).
 - Caso não consiga, uma versão em HTML pode ser encontrado clicando [aqui](https://github.com/adriana-takahagui/mba-machine-learning/tree/main/sweetviz).
 
