@@ -67,6 +67,8 @@ Esta seção aborda a descrição do problema de negócio escolhido para desenvo
 - Além desses dados, também foi utilizada uma **tabela de regiões e estados do Brasil**.
 
 **Link do Notebook**: https://github.com/adriana-takahagui/mba-machine-learning/blob/main/Customer_Satisfaction_Prediction_Ecommerce.ipynb
+- **OBS**: Para visualizar os gráficos gerados pelo Sweetviz, tente abrir pelo link do Colab.
+- Caso não consiga, uma versão em HTML pode ser encontrado clicando [aqui](https://github.com/adriana-takahagui/mba-machine-learning/tree/main/sweetviz).
 
 **Link do Material com as respostas**: As respostas às perguntas propostas em "Descrição do Projeto" - "Requisitos" podem ser encontradas [neste arquivo PDF](https://github.com/adriana-takahagui/mba-machine-learning/blob/main/MBA_Machine_Learning_Customer_Satisfaction.pdf). 
 
