@@ -66,9 +66,9 @@ Esta seção aborda a descrição do problema de negócio escolhido para desenvo
   - **olist_order_reviews_dataset.csv**: dados com avaliações dadas pelos consumidores em relação ao seu pedido
 - Além desses dados, também foi utilizada uma **tabela de regiões e estados do Brasil**.
 
-**Link do Notebook**: 
+**Link do Notebook**: https://github.com/adriana-takahagui/mba-machine-learning/blob/main/Customer_Satisfaction_Prediction_Ecommerce.ipynb
 
-**Link do Material com as respostas**: As respostas às perguntas propostas em "Descrição do Projeto" - "Requisitos" podem ser encontradas [neste arquivo PDF]() ou ao longo da descrição do projeto nesta página. 
+**Link do Material com as respostas**: As respostas às perguntas propostas em "Descrição do Projeto" - "Requisitos" podem ser encontradas [neste arquivo PDF](https://github.com/adriana-takahagui/mba-machine-learning/blob/main/MBA_Machine_Learning_Customer_Satisfaction.pdf). 
 
 ---
 
